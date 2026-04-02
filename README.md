@@ -1,2 +1,7 @@
 # Tasks
-C++ assignments and projects in level 1
+This repository contains C++ implementations for Discrete Mathematics set operations as part of my Level 1 studies at Zagazig University.
+
+### Operations Implemented:
+* **Union**
+* **Intersection**
+* **Difference**
