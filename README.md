@@ -1,8 +1,7 @@
-# Tasks
-This repository contains C++ implementations for Discrete Mathematics set operations as part of my Level 1 studies at Zagazig University.
+# Discrete Math 🚀
+This repository contains C++ implementations for Discrete Mathematics concepts as part of my Level 1 studies at Zagazig University.
 
 ### 🎯 Operations Implemented:
-* **Union**
-* **Intersection**
-* **Difference**
-* **Cartesian Product**
+* **Union, Intersection & Difference**: Basic set operations.
+* **Cartesian Product Generator**: Calculates AxB and displays Domain/Range.
+* **Symmetric Relation Checker**: Logic-based script to verify if a relation is symmetric.
