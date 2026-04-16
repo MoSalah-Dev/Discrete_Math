@@ -10,8 +10,10 @@ This repository contains C++ implementations for **Discrete Mathematics** concep
 * **Generator**: Calculates the Cartesian Product (A × B) and identifies the resulting Domain and Range of the set.
 
 ### 3. Relation Properties
-* **Symmetric Relation Checker**: A robust script that verifies if a relation is symmetric by checking every pair (x, y) for its inverse (y, x). 
-  * *Logic used*: R is symmetric if $\forall (x, y) \in R \implies (y, x) \in R$.
+* **Symmetric Relation Checker**: Verifies if a relation is symmetric by checking every pair (x, y) for its inverse (y, x).
+  * *Logic*: $\forall (x, y) \in R \implies (y, x) \in R$.
+* **Transitive Relation Checker**: A complex logic implementation using triple nested loops to verify chains of relations.
+  * *Logic*: $\forall (a, b) \in R \land (b, c) \in R \implies (a, c) \in R$.
 
 ---
 
