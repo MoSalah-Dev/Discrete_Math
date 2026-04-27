@@ -17,6 +17,10 @@ This repository contains C++ implementations for **Discrete Mathematics** concep
 * **Transitive Relation Checker**: A complex logic implementation using triple nested loops to verify chains of relations.
   * *Logic*: $\forall (a, b) \in R \land (b, c) \in R \implies (a, c) \in R$.
 
+### 4. Graph Theory 📊
+* **Adjacency Matrix Analyzer**: Processes graph matrices to detect self-loops and determine if the graph is a **Simple Graph**.
+* **Degree Calculator**: Computes the degree of each vertex and identifies **Isolated Vertices** (Degree = 0).
+
 ---
 
 ### 🛠 Technologies Used:
