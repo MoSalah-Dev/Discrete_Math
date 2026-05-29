@@ -12,7 +12,9 @@ This repository contains C++ implementations for **Discrete Mathematics** concep
 ### 3. Relation Properties
 * **Reflexive Relation Checker**: Verifies if every element in the set $A$ is related to itself within the relation $R$.
   * *Logic*: $\forall a \in A \implies (a, a) \in R$.
-* **Symmetric Relation Checker**: Verifies if a relation is symmetric by checking every pair (x, y) for its inverse (y, x).
+* **Irreflexive Relation Checker**: Ensures that no element in the set $A$ is related to itself within the relation $R$.
+  * *Logic*: $\forall a \in A \implies (a, a) \notin R$.
+* **Symmetric Relation Checker**: Verifies if a relation is symmetric by checking every pair $(x, y)$ for its inverse $(y, x)$.
   * *Logic*: $\forall (x, y) \in R \implies (y, x) \in R$.
 * **Transitive Relation Checker**: A complex logic implementation using triple nested loops to verify chains of relations.
   * *Logic*: $\forall (a, b) \in R \land (b, c) \in R \implies (a, c) \in R$.
